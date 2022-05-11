@@ -1,0 +1,32 @@
+[line_break]
+disabled = true
+
+[username]
+format = "[$user]($style)@"
+style_user = "bold cyan"
+style_root = "bold red"
+show_always = true
+
+# Second paramcd
+[hostname]
+format = "[$hostname]($style) in "
+style = "bold dimmed green"
+trim_at = "-"
+ssh_only = false
+disabled = false
+
+# Third param
+[directory]
+style = "purple"
+truncate_to_repo = true
+truncation_length = 0
+#truncation_symbol = "…/"
+truncation_symbol = "repo: "
+
+
+[character]
+error_symbol = " [❯❯❯ ](bold red)"
+success_symbol = " [❯❯❯ ](bold green)"
+
+
+

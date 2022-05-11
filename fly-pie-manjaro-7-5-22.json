@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Menu",
+    "icon": "manjaro-settings-manager-panel",
+    "shortcut": "",
+    "centered": false,
+    "id": 0,
+    "children": [
+      {
+        "name": "Graphics",
+        "icon": "applications-graphics",
+        "type": "CustomMenu",
+        "children": [
+          {
+            "name": "Blender",
+            "icon": "blender",
+            "type": "Command",
+            "data": {
+              "command": "prime-run blender"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Krita",
+            "icon": "krita",
+            "type": "Command",
+            "data": {
+              "command": "prime-run krita"
+            },
+            "angle": -1
+          },
+          {
+            "name": "OpenToonz",
+            "icon": "io.github.OpenToonz",
+            "type": "Command",
+            "data": {
+              "command": "prime-run flatpak run io.github.OpenToonz"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Glimpse",
+            "icon": "org.glimpse_editor.Glimpse",
+            "type": "Command",
+            "data": {
+              "command": "prime-run flatpak run org.glimpse_editor.Glimpse"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Kdenlive",
+            "icon": "kdenlive",
+            "type": "Command",
+            "data": {
+              "command": "prime-run flatpak run org.kde.kdenlive"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Inkscape",
+            "icon": "inkscape",
+            "type": "Command",
+            "data": {
+              "command": "prime-run inkscape"
+            },
+            "angle": -1
+          },
+          {
+            "name": "DaVinci Resolve",
+            "icon": "davinci-resolve",
+            "type": "Command",
+            "data": {
+              "command": "prime-run /opt/resolve/bin/resolve"
+            },
+            "angle": -1
+          }
+        ],
+        "angle": -1
+      },
+      {
+        "name": "Internet",
+        "icon": "applications-internet",
+        "type": "CustomMenu",
+        "children": [
+          {
+            "name": "Firefox",
+            "icon": "firefox",
+            "type": "Command",
+            "data": {
+              "command": "firefox"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Chromium",
+            "icon": "chromium",
+            "type": "Command",
+            "data": {
+              "command": "chromium --force-dark-mode"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Fragments",
+            "icon": "de.haeckerfelix.Fragments",
+            "type": "Command",
+            "data": {
+              "command": "flatpak run de.haeckerfelix.Fragments"
+            },
+            "angle": -1
+          }
+        ],
+        "angle": -1
+      },
+      {
+        "name": "Spotify",
+        "icon": "com.spotify.Client",
+        "type": "Command",
+        "data": {
+          "command": "flatpak run com.spotify.Client"
+        },
+        "angle": -1
+      },
+      {
+        "name": "Office",
+        "icon": "onlyoffice-desktopeditors",
+        "type": "Command",
+        "data": {
+          "command": "flatpak run org.onlyoffice.desktopeditors"
+        },
+        "angle": -1
+      }
+    ],
+    "type": "CustomMenu",
+    "data": {},
+    "touchButton": false,
+    "superRMB": true
+  }
+]
