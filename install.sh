@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "coping dots"
-cp -r * ~/.config
+cp -r dots/* ~/.config
 echo "	"
 
 echo "installing necessary items"
